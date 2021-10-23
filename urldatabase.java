@@ -56,8 +56,7 @@ class urldatabase
                             
                             
                             break;
-            case "count"   :try
-                            {
+            case "count"   :
                             for(int k=0;k<acount;k++)
                             {
                             
@@ -67,9 +66,7 @@ class urldatabase
                                 System.out.println("COUNT ="+uarray[k].countt); // printing the latest  usage count of mathing url
                             }
                             }
-                            }catch (NullPointerException e) {
-                                  
-                                 }
+                            
                             break;
             case "list"    :jsondatastring="{urls :{"; // creating list of all url and count as JSON
                             for(int k=0;k<acount;k++)
